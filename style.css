@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: grey;
+  font-family: cursive;
+  font-weight: bolder;
+  height: 300px;
+
+}
+
+
+
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 5rem;
+  color: #2b580c;
+}
+h3 {
+  font-size: 3rem;
+  color: #2b580c;
+}
+.actual-game {
+  padding: 0% 20% 5% 20%;
+  margin-top: 0;
+}
+.col {
+  width: 10%;
+  height: auto;
+}
+
+.btn {
+  font-style: normal;
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 100px;
+
+
+  margin-bottom: 100px;
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee Game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Let's roll the dicee!!</h1>
+
+    <section class="reset-here">
+      <button type="button" id="reset-button"class="btn btn-outline-danger btn-lg btn-block">Restart</button>
+
+    </section>
+  <section class="actual-game">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <h3>Player 1</h3>
+          <img id="first-pic"src="images/dice1.png" alt="Dice-pic">
+
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <h3>Player 2</h3>
+          <img id="second-pic" src="images/dice1.png" alt="Dice-pic">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 scoreShitt">
+          <h3 id="player1-score">Player 1 score: </h3>
+        </div>
+
+        <div class="col-lg-6 col-sm-12 scoreShitt">
+          <h3 id="player2-score">Player 2 score: </h3>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="play-here">
+    <button type="button" id="play-button"class="btn btn-outline-danger btn-lg btn-block">Play</button>
+
+  </section>
+
+
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
